@@ -1,0 +1,35 @@
+<style>
+    /* CSS의 주석 형식 */
+    div{
+        color: red;
+        padding: 20px;
+        margin: 40px;
+    } /* 태그명은 그냥 쓰면 됨 */
+
+    div{
+        color: aqua;
+    } /* 같은 등급은 마지막 순서(제일 아래)의 속성이 적용됨*/
+
+    div:hover{
+        background-color: coral;
+    } /* 마우스 커서를 갖다댈 때 색깔이 바뀌는 기능 */
+
+    #div1 {
+        color: blueviolet;
+    } /* id는 #id명 */
+
+    .abc {
+        color: blue;
+    } /* 클래스는 .클래스명 */
+
+    .aaa{
+        background-color: brown;
+    } /* 클래스는 여러가지 속성 적용 가능 */
+
+</style>
+<!-- div를 쓰면 div태그에 해당하는 것들의 디자인이 바뀜 -->
+
+<div id="div1" class="abc">div1</div> 
+<div class="">div2</div>
+<div class="abc">div3</div>
+<p class="abc aaa">p1</p>
