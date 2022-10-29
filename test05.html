@@ -1,0 +1,104 @@
+<!-- 목록 -->
+<ul>
+    <li>바나나</li>
+    <li>사과</li>
+    <li>수박</li>
+</ul>
+<hr>
+<ol>
+    <li>아침먹기</li>
+    <li>점심먹기</li>
+    <li>저녁먹기</li>
+</ol>
+<hr>
+<!-- a 태그 -->
+<a href="https://www.naver.com" target='_blank' title="설명">네이버로 이동</a>
+    <!-- title은 커서를 링크 위에 두면 설명이라는 설명창이 뜸 -->
+    <!-- 복사할 때 커서를 복사할 코드에 두고 ctrl c 누르면 드래그 안해도 됨 -->
+<br>
+<a href="#" >a#</a>
+<br>
+<a href="javascript:void(0)" >a,void</a>
+<hr>
+
+<!-- img 태그 -->
+<img src="./toronto.jpg" alt="토론토">
+<img src="https://cdn.pixabay.com/photo/2018/01/27/23/46/toronto-3112508__340.jpg" alt="토론토">
+    <!-- alt는 이미지가 깨졌을 때 나오는 설명 -->
+<hr>
+
+<!-- input, textarea, select, button 태그 -->
+<input type="text" value="기본데이터"> 
+    <!-- 데이터를 입력할 때 '기본데이터'는 남아있음 -->
+<input type="text" name="food" placeholder="음식 이름을 넣으세요.">
+    <!-- 데이터를 입력할 때 '음식 이름을 넣으세요.'는 사라짐 -->
+<br>
+<input type="date">
+    <!-- ctrl + 스페이스 누르면 옵션 드롭다운 볼 수 있음 -->
+<br>
+<input type="checkbox">
+<br>
+<input type="password">
+<br>
+<input type="color">
+<br>
+<input type="radio">
+<br>
+<input type="file">
+<hr>
+
+<textarea></textarea>
+<br>
+<textarea  cols="100" rows="10"></textarea>
+    <!-- cols와 rows는 세로, 가로 크기를 설정 -->
+<hr>
+<select>
+    <option value="0">감자</option>
+    <option value="1" selected>고구마</option>
+</select>
+    <!-- value는 서버로 보내는 데이터, 한글도 가능; 콘텐츠는 유저들이 보는 데이터-->
+    <!-- selected는 해당 항목이 디폴트 선택값으로 보여지게 하는 기능 -->
+<hr>
+
+<!-- form 태그 -->
+<form action="test04.html">
+    <input type="text" name="food">
+    <button type="button">확인</button>
+</form>
+<hr>
+
+<!-- table 태그 -->
+<table >
+    <tr>
+      <th>번호</th>
+      <th>상품명</th>
+      <th>수량</th>
+      <th>가격</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>콜라</td>
+      <td>1개</td>
+      <td>1,500원</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>사이다</td>
+      <td>2개</td>
+      <td>1,000원</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>탄산수</td>
+      <td>3개</td>
+      <td>1,000원</td>
+    </tr>
+  </table>
+<hr>
+
+<!-- audio, video 태그 -->
+<audio src="./Winner_Winner_Funky_Chicken_Dinner.mp3" controls></audio>
+<!-- src=""에 ./누르면 파일목록 나옴
+ -->
+<br>
+<video src="./ì__ - 135613.mp4" controls></video>
